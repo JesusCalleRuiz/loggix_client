@@ -20,7 +20,7 @@ The linux command line utility is intended for sending log information to the Lo
 ````
 mkdir temp
 cd temp
-wget -qO install.sh https://raw.githubusercontent.com/JesusCalleRuiz/loggix_client/main/cli/linux/install.sh
+wget -qO install.sh https://raw.githubusercontent.com/JesusCalleRuiz/loggix_client/master/cli/linux/install.sh
 chmod +x install.sh
 sudo ./install.sh
 ````
