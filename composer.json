@@ -1,0 +1,22 @@
+{
+    "name": "jesus.calle/loggix_client",
+    "description": "Client for Loggix Log Server",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JesusCalle\\LoggixClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jesus.calle",
+            "email": "jesus.calle@securitasdirect.es"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": ">=1.0",
+        "vlucas/phpdotenv": ">=1.0"
+    }
+}
