@@ -2,7 +2,7 @@
 ## Composer package for Laravel
 To use Loggix from a Laravel project you just need to require the package using composer and set some environment variables to define the server location, the token of the application you want to log from and the behaviour of the library.
 ````
-composer require italisecdir/loggix-client
+composer require jesus.calle/loggix_client
 ````
 Configure .env variables
 ````
@@ -20,7 +20,7 @@ The linux command line utility is intended for sending log information to the Lo
 ````
 mkdir temp
 cd temp
-wget -qO install.sh https://raw.githubusercontent.com/italisecdir/loggix-client/main/cli/linux/install.sh
+wget -qO install.sh https://raw.githubusercontent.com/JesusCalleRuiz/loggix_client/main/cli/linux/install.sh
 chmod +x install.sh
 sudo ./install.sh
 ````
